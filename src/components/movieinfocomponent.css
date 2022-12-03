@@ -1,0 +1,70 @@
+.micontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgb(103, 100, 100);
+}
+
+.micoverimage {
+  object-fit: cover;
+  padding: 0.5%;
+  margin: 1%;
+  box-shadow: 0px 0px 4px 2px rgb(116, 111, 111);
+  height: 60vh;
+}
+
+.movieinfocolumn {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  width: 50vw;
+}
+
+.mimoviename {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+
+.mimoviename span {
+  opacity: 0.9;
+}
+
+.mimovieinfo {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  overflow: hidden;
+  margin: 4px 0;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+}
+
+.mimovieinfo span {
+  opacity: 0.7;
+}
+
+.close {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  background: rgb(244, 187, 170);
+  height: fit-content;
+  padding: 1%;
+  border-radius: 30%;
+  cursor: pointer;
+  opacity: 0.8;
+  align-items: center;
+}
+
+.loading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  margin-left: 40%;
+}
