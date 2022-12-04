@@ -10,7 +10,8 @@
   padding: 0.5%;
   margin: 1%;
   box-shadow: 0px 0px 4px 2px rgb(116, 111, 111);
-  height: 60vh;
+  height: 50vh;
+  width: 25vw;
 }
 
 .movieinfocolumn {
