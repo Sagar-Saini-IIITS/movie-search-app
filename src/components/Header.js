@@ -9,7 +9,7 @@ function Header(props) {
         <div className="header">
             <div className="appname">
                 <MovieIcon /> &nbsp;
-                <a href="https://sagar-saini-iiits.github.io/movie-search-app/"> Movie Search </a>
+                <a href="http://sagar-saini-iiits.github.io/movie-search-app/"> Movie Search </a>
             </div>
 
             <div className="searchbox">
